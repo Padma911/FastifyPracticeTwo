@@ -1,0 +1,7 @@
+### GET ALL ITEMS         
+GET http://localhost:3030/items 
+
+###
+GET http://localhost:3030/items/1
+
+### 
