@@ -4,15 +4,15 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-   "start": "node server",
-   "dev": "nodemon server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fastify/swagger": "^8.14.0",
     "fastify": "^4.26.2",
-    "fastify-swagger": "^5.2.0",
     "uuid": "^9.0.1"
   },
   "devDependencies": {

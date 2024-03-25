@@ -5,3 +5,23 @@ GET http://localhost:3030/items
 GET http://localhost:3030/items/1
 
 ### 
+POST  http://localhost:3030/items
+Content-Type: application/json
+
+{
+    "name":"devi"
+}
+
+
+###
+DELETE http://localhost:3030/items/4
+
+### 
+
+PUT http://localhost:3030/items/3 
+
+Content-Type: application/json
+{
+"name":"padmavathi devi"
+}
+###
